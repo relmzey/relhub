@@ -10,10 +10,10 @@ local Window = nil
 function Library:Setup()
 	local version = LRM_ScriptVersion and "v" .. table.concat(LRM_ScriptVersion:split(""), ".") or "Dev Version"
 	Window = UI:CreateWindow({
-		Title = "Elvis Hub",
+		Title = "Red Hub",
 		Icon = "rbxassetid://128278170341835",
 		Author = (premium and "Premium" or " Grow a Graden") .. " | " .. version,
-		Folder = "ElvisHub",
+		Folder = "RelHub",
 		Size = UDim2.fromOffset(580, 460),
 		Transparent = true,
 		Theme = "Dark",
@@ -104,7 +104,7 @@ function Library:SetupAboutUs(AboutUs)
 	-- AboutUs:Paragraph({
 	-- 	Title = "What is this?",
 	-- 	Icon = "user-circle",
-	-- 	Desc = "Elvis Hub is a flexible and powerful script hub for Roblox, designed to enhance your gaming experience with a variety of features and tools.",
+	-- 	Desc = "Rel Hub is a flexible and powerful script hub for Roblox, designed to enhance your gaming experience with a variety of features and tools.",
 	-- })
 
 	AboutUs:Paragraph({
@@ -117,7 +117,7 @@ function Library:SetupAboutUs(AboutUs)
 		Title = "Discord Link (Click to Copy)",
 		Icon = "link",
 		Callback = function()
-			setclipboard("https://discord.gg/7zyT99D7S3")
+			setclipboard("https://discord.gg/soon")
 			Library:Notify({ Title = "Copied!", Content = "Discord link copied!", Duration = 3 })
 		end,
 	})
