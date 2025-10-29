@@ -10,7 +10,7 @@ local Window = nil
 function Library:Setup()
 	local version = LRM_ScriptVersion and "v" .. table.concat(LRM_ScriptVersion:split(""), ".") or "Dev Version"
 	Window = UI:CreateWindow({
-		Title = "Red Hub",
+		Title = "Rel Hub",
 		Icon = "rbxassetid://128278170341835",
 		Author = (premium and "Premium" or " Grow a Graden") .. " | " .. version,
 		Folder = "RelHub",
